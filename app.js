@@ -21,6 +21,11 @@ function sortear(){
     alterarStatusBotao();
 }
 
+console.log(sorteados); // Mostra no console se está sorteando corretamente
+alert("Números sorteados: " + sorteados.join(', ')); // Mostra na tela
+
+
+
 function obterNumeroAleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
